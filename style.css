@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic&subset=latin,cyrillic);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.page {
+    
+    background: url(imeg/fan.jpg) repeat-x; 
+    
+    background-color: #FDC973;
+    
+    width: 960px;
+    margin: 120px auto;
+    
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    
+
+}
+
+#kit {
+    color: #454C54;
+    font-family: 'Lora', serif;    
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+#adres {
+     color: #454C54;
+    font-family: 'Lora', serif;    
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    line-height: 20px;
+}
+#mail {
+    text-decoration: none;
+    color: #454C54;
+}
+
+#nav {
+    height: 70px;
+}
+
+#nav ul li {
+    float: left;
+    position: relative;
+}
+
+#nav ul li a {
+    color: #454C54;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    line-height: 70px;
+    font-weight: bold;
+    display: block;
+    height: 70px;
+}
+
+#nav ul li a:hover {
+    background: #8099B5;
+}
+
+#nav .nav-menu {
+    
+    top: 100%;
+    width: 75px;
+    background: #6683A3;
+    display: none;
+}
+
+#nav li:hover .nav-menu{
+    position: absolute;
+    display: block;
+}
+
+
+#nav .nav-menu li{
+    width: 100%;
+    height: 45px;
+}
+
+#nav .nav-menu li a{
+    height: 45px;
+    line-height: 45px;
+}
+.conteiner {
+    
+    width: 960px;
+    height: 700px;
+    background: #99aac6;
+}
+
+#sver {
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 300px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.8);
+
+}
+
+#tramb {
+    margin-top: -120px;
+    margin-left: 330px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.8);
+    width: 300px;
+}
+
+#otd {
+    margin-top: -115px;
+    margin-left: 480px;
+    width: 300px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.8);
+}
+
+#sver:hover{
+    position: absolute;
+    display: block;
+}
